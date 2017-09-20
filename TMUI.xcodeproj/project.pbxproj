@@ -10,6 +10,26 @@
 		3C05E2321EAE2BF400B7484C /* TMUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C05E2281EAE2BF400B7484C /* TMUI.framework */; };
 		3C05E2371EAE2BF400B7484C /* TMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05E2361EAE2BF400B7484C /* TMUITests.swift */; };
 		3C05E2391EAE2BF400B7484C /* TMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C05E22B1EAE2BF400B7484C /* TMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C05E2441EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05E2421EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.swift */; };
+		3C05E2451EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C05E2431EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.xib */; };
+		3C05E2491EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C05E2471EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.swift */; };
+		3C05E24A1EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C05E2481EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.xib */; };
+		3C7820431F226324009B86B8 /* TMTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7820421F226324009B86B8 /* TMTableViewController.swift */; };
+		3C9A10091EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A10071EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.swift */; };
+		3C9A100A1EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9A10081EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.xib */; };
+		3CA7533C1F60E53600A3452F /* TMAlertTextViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA7533B1F60E53600A3452F /* TMAlertTextViewInterface.swift */; };
+		3CA7533E1F60E56B00A3452F /* TMAlertTextViewInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA7533D1F60E56B00A3452F /* TMAlertTextViewInterface.xib */; };
+		3CA753451F60F13400A3452F /* TMAletTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA753441F60F13400A3452F /* TMAletTextView.swift */; };
+		3CA753481F611A0600A3452F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA753471F611A0600A3452F /* Extensions.swift */; };
+		3CCBD6B61EBF04D10092A5C6 /* TMTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCBD6B41EBF04D10092A5C6 /* TMTextViewController.swift */; };
+		3CCBD6B71EBF04D10092A5C6 /* TMTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CCBD6B51EBF04D10092A5C6 /* TMTextViewController.xib */; };
+		3CCBD6CA1EBF15DA0092A5C6 /* TMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCBD6C91EBF15DA0092A5C6 /* TMDatePicker.swift */; };
+		3CCD204E1EFFFFAF00391A24 /* TMUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD204D1EFFFFAF00391A24 /* TMUI.swift */; };
+		3CDB55401F53FFEC00B79BFD /* TMPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB553F1F53FFEC00B79BFD /* TMPickerView.swift */; };
+		3CE394201F0551BA00BF172C /* TMNewsFeedTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3941E1F0551BA00BF172C /* TMNewsFeedTableViewCell1.swift */; };
+		3CE394211F0551BA00BF172C /* TMNewsFeedTableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3941F1F0551BA00BF172C /* TMNewsFeedTableViewCell1.xib */; };
+		3CFD69E81EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFD69E61EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.swift */; };
+		3CFD69E91EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CFD69E71EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +49,26 @@
 		3C05E2311EAE2BF400B7484C /* TMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C05E2361EAE2BF400B7484C /* TMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMUITests.swift; sourceTree = "<group>"; };
 		3C05E2381EAE2BF400B7484C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C05E2421EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMUIFavoritesSelectionViewController.swift; path = ViewControllers/TMUIFavoritesSelectionViewController/TMUIFavoritesSelectionViewController.swift; sourceTree = "<group>"; };
+		3C05E2431EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMUIFavoritesSelectionViewController.xib; path = ViewControllers/TMUIFavoritesSelectionViewController/TMUIFavoritesSelectionViewController.xib; sourceTree = "<group>"; };
+		3C05E2471EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMUIFavoritesSelectionCollectionViewCell.swift; path = ViewControllers/TMUIFavoritesSelectionViewController/TMUIFavoritesSelectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C05E2481EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMUIFavoritesSelectionCollectionViewCell.xib; path = ViewControllers/TMUIFavoritesSelectionViewController/TMUIFavoritesSelectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		3C7820421F226324009B86B8 /* TMTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMTableViewController.swift; path = ViewControllers/TMTableViewController.swift; sourceTree = "<group>"; };
+		3C9A10071EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMCategoryCollectionViewCell.swift; path = Views/Cells/TMCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C9A10081EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMCategoryCollectionViewCell.xib; path = Views/Cells/TMCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		3CA7533B1F60E53600A3452F /* TMAlertTextViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMAlertTextViewInterface.swift; path = Views/TMAlertTextViewInterface.swift; sourceTree = "<group>"; };
+		3CA7533D1F60E56B00A3452F /* TMAlertTextViewInterface.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMAlertTextViewInterface.xib; path = Views/TMAlertTextViewInterface.xib; sourceTree = "<group>"; };
+		3CA753441F60F13400A3452F /* TMAletTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMAletTextView.swift; path = Views/TMAletTextView.swift; sourceTree = "<group>"; };
+		3CA753471F611A0600A3452F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CCBD6B41EBF04D10092A5C6 /* TMTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMTextViewController.swift; path = ViewControllers/TMTextViewController.swift; sourceTree = "<group>"; };
+		3CCBD6B51EBF04D10092A5C6 /* TMTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMTextViewController.xib; path = ViewControllers/TMTextViewController.xib; sourceTree = "<group>"; };
+		3CCBD6C91EBF15DA0092A5C6 /* TMDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMDatePicker.swift; sourceTree = "<group>"; };
+		3CCD204D1EFFFFAF00391A24 /* TMUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMUI.swift; sourceTree = "<group>"; };
+		3CDB553F1F53FFEC00B79BFD /* TMPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMPickerView.swift; path = Views/TMPickerView.swift; sourceTree = "<group>"; };
+		3CE3941E1F0551BA00BF172C /* TMNewsFeedTableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMNewsFeedTableViewCell1.swift; path = Views/Cells/TMNewsFeedTableViewCell1.swift; sourceTree = "<group>"; };
+		3CE3941F1F0551BA00BF172C /* TMNewsFeedTableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMNewsFeedTableViewCell1.xib; path = Views/Cells/TMNewsFeedTableViewCell1.xib; sourceTree = "<group>"; };
+		3CFD69E61EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TMNewsFeedTableViewCell.swift; path = Views/Cells/TMNewsFeedTableViewCell.swift; sourceTree = "<group>"; };
+		3CFD69E71EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TMNewsFeedTableViewCell.xib; path = Views/Cells/TMNewsFeedTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +112,12 @@
 			isa = PBXGroup;
 			children = (
 				3C05E22B1EAE2BF400B7484C /* TMUI.h */,
+				3C05E2461EAE2D2300B7484C /* TMUIFavoritesSelectionViewController */,
 				3C05E22C1EAE2BF400B7484C /* Info.plist */,
+				3C9A10011EBDADF900B3A909 /* Views */,
+				3CCBD6C81EBF154C0092A5C6 /* Text */,
+				3CCD204D1EFFFFAF00391A24 /* TMUI.swift */,
+				3CA753471F611A0600A3452F /* Extensions.swift */,
 			);
 			path = TMUI;
 			sourceTree = "<group>";
@@ -84,6 +129,61 @@
 				3C05E2381EAE2BF400B7484C /* Info.plist */,
 			);
 			path = TMUITests;
+			sourceTree = "<group>";
+		};
+		3C05E2461EAE2D2300B7484C /* TMUIFavoritesSelectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C05E2421EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.swift */,
+				3C05E2431EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.xib */,
+				3C05E2471EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.swift */,
+				3C05E2481EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.xib */,
+			);
+			name = TMUIFavoritesSelectionViewController;
+			sourceTree = "<group>";
+		};
+		3C9A10011EBDADF900B3A909 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C9A10021EBDAE0100B3A909 /* Cells */,
+				3CA753461F60F77900A3452F /* Interfaces */,
+				3CCBD6C91EBF15DA0092A5C6 /* TMDatePicker.swift */,
+				3C7820421F226324009B86B8 /* TMTableViewController.swift */,
+				3CDB553F1F53FFEC00B79BFD /* TMPickerView.swift */,
+				3CA753441F60F13400A3452F /* TMAletTextView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3C9A10021EBDAE0100B3A909 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3CFD69E61EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.swift */,
+				3CFD69E71EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.xib */,
+				3CE3941E1F0551BA00BF172C /* TMNewsFeedTableViewCell1.swift */,
+				3CE3941F1F0551BA00BF172C /* TMNewsFeedTableViewCell1.xib */,
+				3C9A10071EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.swift */,
+				3C9A10081EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3CA753461F60F77900A3452F /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				3CA7533B1F60E53600A3452F /* TMAlertTextViewInterface.swift */,
+				3CA7533D1F60E56B00A3452F /* TMAlertTextViewInterface.xib */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		3CCBD6C81EBF154C0092A5C6 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				3CCBD6B41EBF04D10092A5C6 /* TMTextViewController.swift */,
+				3CCBD6B51EBF04D10092A5C6 /* TMTextViewController.xib */,
+			);
+			name = Text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +249,7 @@
 					3C05E2271EAE2BF400B7484C = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = L9NJSH4CZ8;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3C05E2301EAE2BF400B7484C = {
@@ -181,6 +282,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C05E24A1EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.xib in Resources */,
+				3C05E2451EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.xib in Resources */,
+				3C9A100A1EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.xib in Resources */,
+				3CE394211F0551BA00BF172C /* TMNewsFeedTableViewCell1.xib in Resources */,
+				3CCBD6B71EBF04D10092A5C6 /* TMTextViewController.xib in Resources */,
+				3CFD69E91EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.xib in Resources */,
+				3CA7533E1F60E56B00A3452F /* TMAlertTextViewInterface.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +306,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CCBD6CA1EBF15DA0092A5C6 /* TMDatePicker.swift in Sources */,
+				3C05E2491EAE2D5900B7484C /* TMUIFavoritesSelectionCollectionViewCell.swift in Sources */,
+				3C05E2441EAE2C9E00B7484C /* TMUIFavoritesSelectionViewController.swift in Sources */,
+				3C7820431F226324009B86B8 /* TMTableViewController.swift in Sources */,
+				3CFD69E81EBCE9C3003CA0CA /* TMNewsFeedTableViewCell.swift in Sources */,
+				3CCBD6B61EBF04D10092A5C6 /* TMTextViewController.swift in Sources */,
+				3C9A10091EBDAE4E00B3A909 /* TMCategoryCollectionViewCell.swift in Sources */,
+				3CDB55401F53FFEC00B79BFD /* TMPickerView.swift in Sources */,
+				3CA753481F611A0600A3452F /* Extensions.swift in Sources */,
+				3CA7533C1F60E53600A3452F /* TMAlertTextViewInterface.swift in Sources */,
+				3CA753451F60F13400A3452F /* TMAletTextView.swift in Sources */,
+				3CCD204E1EFFFFAF00391A24 /* TMUI.swift in Sources */,
+				3CE394201F0551BA00BF172C /* TMNewsFeedTableViewCell1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +443,7 @@
 		3C05E23D1EAE2BF400B7484C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
@@ -334,6 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.yomstudio.TMUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +464,7 @@
 		3C05E23E1EAE2BF400B7484C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
@@ -360,6 +484,7 @@
 		3C05E2401EAE2BF400B7484C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = TMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +497,7 @@
 		3C05E2411EAE2BF400B7484C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9NJSH4CZ8;
 				INFOPLIST_FILE = TMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +526,7 @@
 				3C05E23E1EAE2BF400B7484C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C05E23F1EAE2BF400B7484C /* Build configuration list for PBXNativeTarget "TMUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +535,7 @@
 				3C05E2411EAE2BF400B7484C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
